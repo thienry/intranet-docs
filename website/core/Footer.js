@@ -37,7 +37,7 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5> Documentações </h5>
-            <a href={this.docUrl('doc1.html', this.props.language)}>
+            <a href={this.docUrl('pep/doc1.html', this.props.language)}>
               Prontuário Eletrônico do Paciente
             </a>
             {/*<a href={this.docUrl('doc2.html', this.props.language)}>

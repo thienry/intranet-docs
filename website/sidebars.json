@@ -1,10 +1,20 @@
 {
   "docs": {
-    "Introducao": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "Prontuário Eletrônico": [
+      "pep/doc1",
+      "pep/doc2",
+      "pep/doc3",
+      "pep/doc4",
+      "pep/doc5",
+      "pep/doc6",
+      "pep/doc7"
+    ],
+    "Médicos": ["doc8"],
+    "Enfermeiros": ["doc9"],
+    "Técnicos de Enfermagem": ["doc10"],
+    "Farmacêuticos": ["doc11"],
+    "Nutricionistas": ["doc12"],
+    "Fisioterapêutas": ["doc13"],
+    "Fonoaudiologistas": ["doc14"]
   }
 }

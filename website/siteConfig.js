@@ -39,12 +39,13 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {
-      doc: 'doc1',
+      doc: 'pep/doc1',
       label: 'Prontuário Eletrônico'
     },
    // {doc: 'doc4', label: 'API'},
     {page: 'help', label: 'Ajuda'},
    // {blog: true, label: 'Blog'},
+    {search: true}
   ],
 
   // If you have users set above, you add it here:
@@ -76,7 +77,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Thiago Moura`,
+  copyright: `Copyright © ${new Date().getFullYear()} Fasortec`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -104,6 +105,12 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',
+
+  algolia: {
+    apiKey: 'my-api-key',
+    indexName: 'my-index-name',
+    algoliaOptions: {} // Optional, if provided by Algolia
+  },
 };
 
 module.exports = siteConfig;

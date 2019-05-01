@@ -18,21 +18,18 @@ function Help(props) {
   const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
   const langPart = `${language ? `${language}/` : ''}`;
   const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
+  const helpdesk = "https://helpdesk";
 
   const supportLinks = [
     {
-      content: `Learn more using the [documentation on this site.](${docUrl(
+      content: `Aprenda mais sobre o PEP usando a [documentação neste site.](${docUrl(
         'doc1.html',
       )})`,
-      title: 'Browse Docs',
+      title: 'Navegue pela Documentação',
     },
     {
-      content: 'Ask questions about the documentation and project',
-      title: 'Join the community',
-    },
-    {
-      content: "Find out what's new with this project",
-      title: 'Stay up to date',
+      content: `Caso precise de uma ajuda técnica, abra um chamado no [HELPDESK](${helpdesk}) que a equipe de TI estará de prontidão para atende-lo(a).`,
+      title: 'Abra um chamado',
     },
   ];
 
@@ -41,9 +38,8 @@ function Help(props) {
       <Container className="mainContainer documentContainer postContainer">
         <div className="post">
           <header className="postHeader">
-            <h1>Need help?</h1>
+            <h1>Precisa de ajuda?</h1>
           </header>
-          <p>This project is maintained by a dedicated group of people.</p>
           <GridBlock contents={supportLinks} layout="threeColumn" />
         </div>
       </Container>
