@@ -1,13 +1,13 @@
 {
   "docs": {
     "Prontuário Eletrônico": [
-      "pep/doc1",
-      "pep/doc2",
-      "pep/doc3",
-      "pep/doc4",
-      "pep/doc5",
-      "pep/doc6",
-      "pep/doc7"
+      "pep/pep-introduction",
+      "pep/accessing-medview",
+      "pep/allergies",
+      "pep/evolution",
+      "pep/prescription",
+      "pep/exam-results",
+      "pep/view-patient-history"
     ],
     "Médicos": ["doc8"],
     "Enfermeiros": ["doc9"],

@@ -1,5 +1,5 @@
 ---
-id: doc1
+id: pep-introduction
 title: Introdução
 sidebar_label: Introdução
 ---

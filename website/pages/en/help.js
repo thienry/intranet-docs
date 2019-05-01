@@ -23,7 +23,7 @@ function Help(props) {
   const supportLinks = [
     {
       content: `Aprenda mais sobre o PEP usando a [documentação neste site.](${docUrl(
-        'doc1.html',
+        'pep/pep-introduction.html',
       )})`,
       title: 'Navegue pela Documentação',
     },

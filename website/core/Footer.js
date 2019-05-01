@@ -37,7 +37,7 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5> Documentações </h5>
-            <a href={this.docUrl('pep/doc1.html', this.props.language)}>
+            <a href={this.docUrl('pep/pep-introduction.html', this.props.language)}>
               Prontuário Eletrônico do Paciente
             </a>
             {/*<a href={this.docUrl('doc2.html', this.props.language)}>
@@ -55,19 +55,11 @@ class Footer extends React.Component {
             <a href = "//intranet/notificacao"> Notificação </a>
           </div>
         </section>
-
-        <a
-          href="https://opensource.facebook.com/"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="fbOpenSource">
           <img
-            src={`${this.props.config.baseUrl}img/oss_logo.png`}
-            alt="Facebook Open Source"
-            width="170"
-            height="45"
+            className="fbOpenSource"
+            src={`${this.props.config.baseUrl}img/hjf.png`}
           />
-        </a>
+ 
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );
