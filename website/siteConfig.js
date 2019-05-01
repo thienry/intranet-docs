@@ -21,17 +21,17 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
+  title: 'Intranet Docs', // Title for your website.
+  tagline: 'Documentação Oficial do Prontuário Eletrônico do Paciente',
+  url: 'https://intranet.hjf.local/', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'test-site',
-  organizationName: 'facebook',
+  projectName: 'Intranet Docs',
+  organizationName: 'Hospital Jayme da Fonte',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -54,8 +54,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#401c47',
-    secondaryColor: '#2c1331',
+    primaryColor: '#8d1d2e',
+    secondaryColor: '#ad182e',
   },
 
   /* Custom fonts for website */
