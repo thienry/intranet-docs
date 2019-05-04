@@ -37,7 +37,7 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5> Documentações </h5>
-            <a href={this.docUrl('pep/pep-introduction.html', this.props.language)}>
+            <a href={this.docUrl('pep/pep-introduction.html')}>
               Prontuário Eletrônico do Paciente
             </a>
             {/*<a href={this.docUrl('doc2.html', this.props.language)}>
@@ -50,9 +50,9 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>Mais</h5>
-            <a href="//intranet/"> Intranet </a>
-            <a href="//intranet/blog"> Blog </a>
-            <a href = "//intranet/notificacao"> Notificação </a>
+            <a href="http://intranet/"> Intranet </a>
+            <a href="http://intranet/blog"> Blog </a>
+            <a href = "http://intranet/notificacao"> Notificação </a>
           </div>
         </section>
           <img

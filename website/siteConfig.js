@@ -23,7 +23,7 @@ const users = [
 const siteConfig = {
   title: 'Intranet Docs', // Title for your website.
   tagline: 'Documentação Oficial do Prontuário Eletrônico do Paciente',
-  url: 'https://intranet.hjf.local/', // Your website URL
+  url: 'https://intranet-docs.netlify.com/', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -111,6 +111,7 @@ const siteConfig = {
     indexName: 'my-index-name',
     algoliaOptions: {} // Optional, if provided by Algolia
   },
+
 };
 
 module.exports = siteConfig;

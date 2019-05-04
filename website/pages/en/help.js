@@ -18,7 +18,7 @@ function Help(props) {
   const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
   const langPart = `${language ? `${language}/` : ''}`;
   const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
-  const helpdesk = "https://helpdesk";
+  const helpdesk = "http://helpdesk";
 
   const supportLinks = [
     {
