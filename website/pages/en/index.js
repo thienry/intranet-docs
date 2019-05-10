@@ -9,6 +9,8 @@ const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
 
+
+
 const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
@@ -20,6 +22,9 @@ class HomeSplash extends React.Component {
     const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
     const langPart = `${language ? `${language}/` : ''}`;
     const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
+    const fa = {
+      icon: 'fas fa-book-medical',
+    }
 
     const SplashContainer = props => (
       <div className="homeContainer">
@@ -52,12 +57,24 @@ class HomeSplash extends React.Component {
       </div>
     );
 
+    const Box = () => (
+      <div className = "docs-grid">
+        <a className="item" href={docUrl('pep/pep-introduction.html')}>
+          <i className={fa.icon}></i>
+          <h3>Prontuário Eletrônico do Paciente</h3>
+          <p>Ir para a documentação</p>
+        </a>
+      </div>
+    )
+
+  
+
     return (
       <SplashContainer>
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href={docUrl('pep/pep-introduction.html')}>Ir para a documentação</Button>
+            <Box />
           </PromoSection>
         </div>
       </SplashContainer>

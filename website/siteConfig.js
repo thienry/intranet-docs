@@ -62,6 +62,12 @@ const siteConfig = {
     secondaryColor: '#ad182e',
   },
 
+  stylesheets: [
+    'https://fonts.googleapis.com/css?family=Noto+Sans:400,700',
+    'https://use.fontawesome.com/releases/v5.8.1/css/all.css'
+  ],
+
+
   /* Custom fonts for website */
   /*
   fonts: {
