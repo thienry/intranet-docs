@@ -95,6 +95,7 @@ const siteConfig = {
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
+  docsSideNavCollapsible: true,
   // No .html extensions for paths.
   cleanUrl: true,
 
@@ -118,6 +119,7 @@ const siteConfig = {
     algoliaOptions: {} // Optional, if provided by Algolia
   },
 
+  scrollToTop: true
 };
 
 module.exports = siteConfig;
