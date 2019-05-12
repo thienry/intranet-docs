@@ -1,6 +1,6 @@
 ---
 id: view-patient-history
-title: Visualizar Historia do Paciente
+title: Visualizar História do Paciente
 ---
 
 ## Reimpressão da Prescrição (Visualização da História Clínica)

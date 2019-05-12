@@ -1,20 +1,26 @@
 {
   "docs": {
     "Prontuário Eletrônico": [
-      "pep/pep-introduction",
+      "pep/_introduction",
       "pep/accessing-medview",
       "pep/allergies",
+      "pep/checking",
       "pep/evolution",
+      "pep/exams",
+      "pep/hydric-balance",
+      "pep/medical-opinion",
+      "pep/nursing-annotations",
+      "pep/pharmaceutical-validation",
       "pep/prescription",
-      "pep/exam-results",
       "pep/view-patient-history"
     ],
-    "Médicos": ["doc8"],
-    "Enfermeiros": ["doc9"],
-    "Técnicos de Enfermagem": ["doc10"],
-    "Farmacêuticos": ["doc11"],
-    "Nutricionistas": ["doc12"],
-    "Fisioterapêutas": ["doc13"],
-    "Fonoaudiologistas": ["doc14"]
+    "Formulários Clínicos": [
+      "pep/forms/medical-forms",
+      "pep/forms/nursing-forms",
+      "pep/forms/nutrition-forms",
+      "pep/forms/pharmacy-forms",
+      "pep/forms/physical-therapy-forms",
+      "pep/forms/speech-therapy-forms"
+    ]
   }
 }

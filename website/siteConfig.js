@@ -39,7 +39,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {
-      doc: 'pep/pep-introduction',
+      doc: 'pep/_introduction',
       label: 'Prontuário Eletrônico'
     },
    // {doc: 'doc4', label: 'API'},

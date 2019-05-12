@@ -1,5 +1,5 @@
 ---
-id: doc8
+id: medical-forms
 title: Formulários Médicos
 ---
 

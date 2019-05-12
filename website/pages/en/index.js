@@ -59,7 +59,7 @@ class HomeSplash extends React.Component {
 
     const Box = () => (
       <div className = "docs-grid">
-        <a className="item" href={docUrl('pep/pep-introduction.html')}>
+        <a className="item" href={docUrl('pep/_introduction.html')}>
           <i className={fa.icon}></i>
           <h3>Prontuário Eletrônico do Paciente</h3>
           <p>Ir para a documentação</p>
