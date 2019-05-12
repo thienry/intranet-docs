@@ -22,5 +22,13 @@
       "pep/forms/physical-therapy-forms",
       "pep/forms/speech-therapy-forms"
     ]
+  },
+  "docs-forms": {
+    "Formulários": [
+      "clinical-forms/_introduction",
+      "clinical-forms/1-types-of-clinical-forms-templates",
+      "clinical-forms/2-clinical-parameters",
+      "clinical-forms/3-clinical-forms"
+    ]
   }
 }

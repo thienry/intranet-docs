@@ -7,7 +7,7 @@ O Sistema permite o controle/crítica para medicamentos prescritos que possam ca
 
 ## Registrando as Alergias do Paciente
 
-Ao abrir o prontuário do paciente o tópico ‘ALÉRGICO** é apresentado com o status: **NÃO INFORMADA**. O Profissional Médico deverá, então, acessar o botão **ALERGIA** e informar as substâncias, alimentos ou materiais mencionados pelo paciente como causadores de alergias, conforme apresentado na figura abaixo:
+Ao abrir o prontuário do paciente o tópico **ALÉRGICO** é apresentado com o status: **NÃO INFORMADA**. O Profissional Médico deverá, então, acessar o botão **ALERGIA** e informar as substâncias, alimentos ou materiais mencionados pelo paciente como causadores de alergias, conforme apresentado na figura abaixo:
 
 ![Visualização de Alergias](../assets/imagem9.png)
 
