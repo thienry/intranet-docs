@@ -63,4 +63,4 @@ O (quadro 1), apresenta os principais ícones do Sistema e já explanados no tó
 
 O (quadro 2), apresenta o nome do paciente e algumas informações referentes ao mesmo.
 
-O (quadro 3), apresenta os botões da ‘BARRA DE FERRAMENTAS’ com as funcionalidades que os profissionais médicos irão utilizar. Estas informações clínicas foram definidas pela Rede D’Or e validadas pela Unidade hospitalar.
+O (quadro 3), apresenta os botões da ‘BARRA DE FERRAMENTAS’ com as funcionalidades que os profissionais médicos irão utilizar. Estas informações clínicas foram definidas e validadas pela Unidade hospitalar.
