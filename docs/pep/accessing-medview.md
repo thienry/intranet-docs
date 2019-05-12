@@ -35,13 +35,13 @@ O Sistema abrirá a tela para pesquisar os pacientes que estão em atendimento n
 
 ![Lista de Prontuários Médicos](../assets/imagem3.png) 
 
-Para consultar os pacientes o usuário poderá selecionar o atendimento que deseja filtrando e refinando a pesquisa. Por exemplo, na imagem acima marcamos o check-box ‘SÓ INTERNANDOS’ para que o Sistema liste apenas os pacientes internados.
+Para consultar os pacientes o usuário poderá selecionar o atendimento que deseja filtrando e refinando a pesquisa. Por exemplo, na imagem acima marcamos o check-box **SÓ INTERNANDOS** para que o Sistema liste apenas os pacientes internados.
 
 ### Lista de leitos
 
 Ao clicar no ícone abaxo: ![Ícone de Leitos](../assets/imagem4.png)
 
-O sistema abrirá a tela ‘LISTA DE LEITOS’, possibilitando a pesquisa por setor e identificando o leito ocupado pelos pacientes que estão internados na Unidade Hospitalar, conforme apresentado na figura abaixo:
+O sistema abrirá a tela **LISTA DE LEITOS**, possibilitando a pesquisa por setor e identificando o leito ocupado pelos pacientes que estão internados na Unidade Hospitalar, conforme apresentado na figura abaixo:
 
 ![Lista de Prontuários Médicos](../assets/imagem5.png) 
 
@@ -59,8 +59,8 @@ Após selecionar o paciente desejado, o prontuário estará disponível para a r
 
 ![Menu Principal](../assets/imagem8.png)
 
-O (quadro 1), apresenta os principais ícones do Sistema e já explanados no tópico: ‘2.2 PRINCIPAIS ÍCONES’, deste manual.
+O (quadro 1), apresenta os principais ícones do Sistema e já explanados no tópico: [**PRINCIPAIS ÍCONES**](#principais-icones), deste manual.
 
 O (quadro 2), apresenta o nome do paciente e algumas informações referentes ao mesmo.
 
-O (quadro 3), apresenta os botões da ‘BARRA DE FERRAMENTAS’ com as funcionalidades que os profissionais médicos irão utilizar. Estas informações clínicas foram definidas e validadas pela Unidade hospitalar.
+O (quadro 3), apresenta os botões da **BARRA DE FERRAMENTAS** com as funcionalidades que os profissionais médicos irão utilizar. Estas informações clínicas foram definidas e validadas pela Unidade hospitalar.
