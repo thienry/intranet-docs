@@ -1,26 +1,26 @@
 {
-  "docs": {
+  "prontuario-eletrônico-paciente": {
     "Prontuário Eletrônico": [
-      "pep/_introduction",
-      "pep/accessing-medview",
-      "pep/allergies",
-      "pep/checking",
-      "pep/evolution",
-      "pep/exams",
-      "pep/hydric-balance",
-      "pep/medical-opinion",
-      "pep/nursing-annotations",
-      "pep/pharmaceutical-validation",
-      "pep/prescription",
-      "pep/view-patient-history"
+      "prontuario-eletronico-paciente/_introduction",
+      "prontuario-eletronico-paciente/accessing-medview",
+      "prontuario-eletronico-paciente/allergies",
+      "prontuario-eletronico-paciente/checking",
+      "prontuario-eletronico-paciente/evolution",
+      "prontuario-eletronico-paciente/exams",
+      "prontuario-eletronico-paciente/hydric-balance",
+      "prontuario-eletronico-paciente/medical-opinion",
+      "prontuario-eletronico-paciente/nursing-annotations",
+      "prontuario-eletronico-paciente/pharmaceutical-validation",
+      "prontuario-eletronico-paciente/prescription",
+      "prontuario-eletronico-paciente/view-patient-history"
     ],
     "Formulários Clínicos": [
-      "pep/forms/medical-forms",
-      "pep/forms/nursing-forms",
-      "pep/forms/nutrition-forms",
-      "pep/forms/pharmacy-forms",
-      "pep/forms/physical-therapy-forms",
-      "pep/forms/speech-therapy-forms"
+      "prontuario-eletronico-paciente/forms/medical-forms",
+      "prontuario-eletronico-paciente/forms/nursing-forms",
+      "prontuario-eletronico-paciente/forms/nutrition-forms",
+      "prontuario-eletronico-paciente/forms/pharmacy-forms",
+      "prontuario-eletronico-paciente/forms/physical-therapy-forms",
+      "prontuario-eletronico-paciente/forms/speech-therapy-forms"
     ]
   },
   "docs-forms": {
@@ -29,6 +29,21 @@
       "clinical-forms/1-types-of-clinical-forms-templates",
       "clinical-forms/2-clinical-parameters",
       "clinical-forms/3-clinical-forms"
+    ]
+  },
+  "manual-helpdesk": {
+    "Manual Sistema de Chamados": ["manual-helpdesk/_introduction"]
+  },
+  "manuais-sistemas-agfa": {
+    "Manuais dos Sistemas da AGFA": [
+      "manuais-sistemas-agfa/_introduction",
+      "manuais-sistemas-agfa/reserva-cirurgia-blochos",
+      ""
+    ]
+  },
+  "manuais-diversos": {
+    "Manuais Diversos": [
+      "manuais-diversos/_introduction"
     ]
   }
 }

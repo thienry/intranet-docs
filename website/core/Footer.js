@@ -37,11 +37,20 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5> Documentações </h5>
-            <a href={this.docUrl('pep/_introduction.html')}>
+            <a href={this.docUrl('prontuario-eletronico-paciente/_introduction')}>
               Prontuário Eletrônico do Paciente
             </a>
-            <a href={this.docUrl('clinical-forms/_introduction.html')}>
-              Manual Formulários Clínicos
+            <a href={this.docUrl('clinical-forms/_introduction')}>
+              Manuais Formulários Clínicos
+            </a>
+            <a href={this.docUrl('manual-helpdesk/_introduction')}>
+              Manual Sistema de Chamados
+            </a>
+            <a href={this.docUrl('manuais-sistemas-agfa/_introduction')}>
+              Manuais dos Sistemas da AGFA
+            </a>
+            <a href={this.docUrl('manuais-diversos/_introduction')}>
+              Manuais Diversos
             </a>
             {/*<a href={this.docUrl('doc3.html', this.props.language)}>
               API Reference (or other categories)
@@ -52,7 +61,9 @@ class Footer extends React.Component {
             <h5>Mais</h5>
             <a href="http://intranet/"> Intranet </a>
             <a href="http://intranet/blog"> Blog </a>
+            <a href="http://intranet/events"> Eventos </a>
             <a href = "http://intranet/notificacao"> Notificação </a>
+            <a href = "http://intranet/convenants"> Lista de Convênios </a>
           </div>
         </section>
           <img

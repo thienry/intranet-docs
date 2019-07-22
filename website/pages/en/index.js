@@ -24,7 +24,30 @@ class HomeSplash extends React.Component {
     const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
     const fa = {
       icon: 'fas fa-book-medical',
+      iconBook: "fas fa-book",
+      iconHelpdesk: "fas fa-toolbox"
     }
+
+    const Docs = [
+      {
+        path: "prontuario-eletronico-paciente",
+        title: "Prontuário Eletrônico do Paciente",
+        doc: "Ir para a documentação",
+        icon: 'fas fa-book-medical'
+      },
+      {
+        path: "manual-helpdesk",
+        title: "Manual Sistema de Chamados",
+        doc: "Ir para a documentação",
+        icon: 'fas fa-book'
+      },
+      {
+        path: "manuais-sistemas-agfa",
+        title: "Manuais Sistemas AGFA",
+        doc: "Ir para a documentação",
+        icon: 'fas fa-toolbox'
+      }
+    ]
 
     const SplashContainer = props => (
       <div className="homeContainer">
@@ -64,6 +87,16 @@ class HomeSplash extends React.Component {
           <h3>Prontuário Eletrônico do Paciente</h3>
           <p>Ir para a documentação</p>
         </a>
+        <a className="item" href="/docs/helpdesk.html">
+          <i className={fa.iconHelpdesk}></i>
+          <h3>Manual Sistema de Chamados</h3>
+          <p>Ir para a documentação</p>
+        </a>
+        <a className="item" href={docUrl('pep/_introduction.html')}>
+          <i className={fa.iconBook}></i>
+          <h3>Manuais dos Sistemas AGFA</h3>
+          <p>Ir para a documentação</p>
+        </a>
       </div>
     )
 
@@ -73,12 +106,18 @@ class HomeSplash extends React.Component {
       <SplashContainer>
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
-          <PromoSection>
-            <Box />
-          </PromoSection>
+          <div className="docs-grid">
+            {Docs.map(doc => (
+              <a key={doc.path} className="item" href={`${docsPart + doc.path}/_introduction`}>
+                <i className={doc.icon}></i>
+                <h3>{doc.title}</h3>
+                <p>{doc.doc}</p>
+              </a>
+            ))}
+          </div>
         </div>
       </SplashContainer>
-    );
+    )
   }
 }
 

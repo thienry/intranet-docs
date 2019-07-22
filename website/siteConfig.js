@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
   title: 'Intranet Docs', // Title for your website.
-  tagline: 'Documentação Oficial do Prontuário Eletrônico do Paciente',
+  tagline: 'Documentação Oficial dos Sistemas Internos do Hospital',
   url: 'https://intranet-docs.netlify.com/', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -39,7 +39,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {
-      doc: 'pep/_introduction',
+      doc: 'prontuario-eletronico-paciente/_introduction',
       label: 'Prontuário Eletrônico'
     },
    // {doc: 'doc4', label: 'API'},
