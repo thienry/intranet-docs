@@ -3,8 +3,6 @@ id: prescription
 title: Prescrição
 ---
 
-## Informações Gerais
-
 Na barra de ferramentas, **CLICAR** no botão **PRESCRIÇÃO**, conforme apresentado na figura abaixo:
 
 ![Prescrição](../assets/imagem29.png)

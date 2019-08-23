@@ -14,13 +14,21 @@
       "prontuario-eletronico-paciente/prescription",
       "prontuario-eletronico-paciente/view-patient-history"
     ],
-    "Formulários Clínicos": [
-      "prontuario-eletronico-paciente/forms/medical-forms",
-      "prontuario-eletronico-paciente/forms/nursing-forms",
-      "prontuario-eletronico-paciente/forms/nutrition-forms",
-      "prontuario-eletronico-paciente/forms/pharmacy-forms",
-      "prontuario-eletronico-paciente/forms/physical-therapy-forms",
-      "prontuario-eletronico-paciente/forms/speech-therapy-forms"
+    "Fluxo do Prontuário Eletrônico na Urgência": [
+      "urgency-process-flow/_introduction",
+      "urgency-process-flow/1-password-withdrawal",
+      "urgency-process-flow/2-risk-classified-reception",
+      "urgency-process-flow/3-medical-care",
+      "urgency-process-flow/4-prescription",
+      "urgency-process-flow/5-examination-request",
+      "urgency-process-flow/6-evolution",
+      "urgency-process-flow/7-nursing-annotation",
+      "urgency-process-flow/8-vital-signs",
+      "urgency-process-flow/9-checking",
+      "urgency-process-flow/10-exams-results",
+      "urgency-process-flow/11-medical-revaluation",
+      "urgency-process-flow/12-medical-certificate",
+      "urgency-process-flow/13-patient-discharge"
     ]
   },
   "docs-forms": {
@@ -42,8 +50,6 @@
     ]
   },
   "manuais-diversos": {
-    "Manuais Diversos": [
-      "manuais-diversos/_introduction"
-    ]
+    "Manuais Diversos": ["manuais-diversos/_introduction"]
   }
 }
