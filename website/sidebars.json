@@ -51,5 +51,13 @@
   },
   "manuais-diversos": {
     "Manuais Diversos": ["manuais-diversos/_introduction"]
+  },
+  "image-worklists": {
+    "Manual de Usuário Atendimento DIAG": [
+      "image-worklists/_introduction",
+      "image-worklists/1-scheduled-patient-worklist",
+      "image-worklists/2-exam-confirmation-worklist",
+      "image-worklists/3-report-worklist"
+    ]
   }
 }

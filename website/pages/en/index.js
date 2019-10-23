@@ -39,13 +39,13 @@ class HomeSplash extends React.Component {
         path: "manual-helpdesk",
         title: "Manual Sistema de Chamados",
         doc: "Ir para a documentação",
-        icon: 'fas fa-book'
+        icon: 'fas fa-toolbox'
       },
       {
-        path: "manuais-sistemas-agfa",
-        title: "Manuais Sistemas AGFA",
+        path: "image-worklists",
+        title: "Manual de Usuário Atendimento DIAG",
         doc: "Ir para a documentação",
-        icon: 'fas fa-toolbox'
+        icon: 'fas fa-book'
       }
     ]
 
@@ -64,43 +64,7 @@ class HomeSplash extends React.Component {
       </h2>
     );
 
-    const PromoSection = props => (
-      <div className="section promoSection">
-        <div className="promoRow">
-          <div className="pluginRowBlock">{props.children}</div>
-        </div>
-      </div>
-    );
-
-    const Button = props => (
-      <div className="pluginWrapper buttonWrapper">
-        <a className="button" href={props.href} target={props.target}>
-          {props.children}
-        </a>
-      </div>
-    );
-
-    const Box = () => (
-      <div className = "docs-grid">
-        <a className="item" href={docUrl('pep/_introduction.html')}>
-          <i className={fa.icon}></i>
-          <h3>Prontuário Eletrônico do Paciente</h3>
-          <p>Ir para a documentação</p>
-        </a>
-        <a className="item" href="/docs/helpdesk.html">
-          <i className={fa.iconHelpdesk}></i>
-          <h3>Manual Sistema de Chamados</h3>
-          <p>Ir para a documentação</p>
-        </a>
-        <a className="item" href={docUrl('pep/_introduction.html')}>
-          <i className={fa.iconBook}></i>
-          <h3>Manuais dos Sistemas AGFA</h3>
-          <p>Ir para a documentação</p>
-        </a>
-      </div>
-    )
-
-  
+     
 
     return (
       <SplashContainer>
