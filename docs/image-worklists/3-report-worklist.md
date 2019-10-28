@@ -43,14 +43,6 @@ A tarja de Rascunho será retirada e o usuário poderá seguir com o tramite de 
 
 Para realizar o processo de Liberação de laudo, o sistema irá mostrar o laudo na tela de visualização para que seja liberado. O usuário poderá liberar em lote ou de forma individual.
 
-
-## Assinar Laudos
-
-Para Assinatura pelo botão da worklist de laudo, o sistema abrirá a tela de visualização do laudo antes para que o usuário visualize antes de assiná-lo;
-O usuário precisa estar atrelado à um profissional com as configurações acima especificadas.
-
-![Tela de Worklist de Laudos](../assets/image-worklists/tela-23.jpg)
-
 ## Receber Laudos
 
 Possibilita o controle de recebimento por parte da recepção dos laudos vindo das salas de exames. Funciona como um protocolo administrativo do tramite de laudos entre o setor de laudo e à recepção de entrega do laudo ao paciente. Para utilizar esse controle, o parâmetro: dia_controla_rec_laudo (Controla recebimento de laudo pela recepção) deve estar habilitado.
