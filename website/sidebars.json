@@ -50,7 +50,10 @@
     ]
   },
   "manuais-diversos": {
-    "Manuais Diversos": ["manuais-diversos/_introduction"]
+    "Manuais Diversos": [
+      "manuais-diversos/_introduction",
+      "manuais-diversos/backup"
+    ]
   },
   "image-worklists": {
     "Manual de Usuário Atendimento DIAG": [
